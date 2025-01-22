@@ -63,8 +63,10 @@ cd forumhub
   spring.datasource.url=jdbc:mysql://localhost/forumhub
   spring.datasource.username=root
   spring.datasource.password=root
-  spring.jpa.hibernate.ddl-auto=update
-  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+  spring.jpa.show-sql=true
+  spring.jpa.properties.hibernate.format_sql=true
+  server.error.include-stacktrace=never
+  api.security.token.secret=${JWT_SECRET}
   ```
 
 ### 3. Instalar Dependências
