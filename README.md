@@ -60,9 +60,9 @@ cd forumhub
   ```
 - Atualize o arquivo `application.properties` com suas credenciais:
   ```properties
-  spring.datasource.url=jdbc:postgresql://localhost:5432/forumhub
-  spring.datasource.username=seu_usuario
-  spring.datasource.password=sua_senha
+  spring.datasource.url=jdbc:mysql://localhost/forumhub
+  spring.datasource.username=root
+  spring.datasource.password=root
   spring.jpa.hibernate.ddl-auto=update
   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
   ```
