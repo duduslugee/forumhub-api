@@ -1,4 +1,4 @@
-# ForumHub
+# 🧵 ForumHub
 
 ForumHub é uma aplicação web desenvolvida com o objetivo de fornecer um ambiente para discussão de tópicos e compartilhamento de ideias. Este README oferece uma visão geral do projeto, suas principais funcionalidades e como configurá-lo.
 
