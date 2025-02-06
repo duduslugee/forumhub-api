@@ -97,24 +97,6 @@ A aplicação estará disponível em: `http://localhost:8080`
 
 ---
 
-## Estrutura do Projeto
-
-```
-ForumHub/
-├── src/main/java/
-│   ├── br/duduslugee/forumhub/api/
-│   │   ├── controller/      # Controllers REST
-│   │   ├── domain/          # Classes de domínio
-│   │   ├── repository/      # Interfaces de repositório
-│   │   ├── service/         # Serviços de negócio
-│   │   └── configuration/   # Configurações do Spring
-├── src/main/resources/
-│   ├── application.properties  # Configuração da aplicação
-│   └── static/                 
-├── pom.xml                # Gerenciamento de dependências
-└── README.md              # Documentação do projeto
-```
-
 ---
 
 ## Contribuições
